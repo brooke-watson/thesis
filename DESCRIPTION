@@ -1,0 +1,9 @@
+Package: thesis
+Title: Functions for my senior thesis in Epidemiology at LSHTM
+Version: 0.0.0.9000
+Authors@R: person(“Brooke”, “Watson”, email = “brookemeredithwatson@gmail.com”, role = c("aut", "cre"))
+Description: Functions for my senior thesis in Epidemiology at LSHTM.
+Depends: R (>= 3.3.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
