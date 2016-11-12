@@ -2,14 +2,13 @@ Package: thesis
 Title: Functions for my senior thesis in Epidemiology at LSHTM
 Version: 0.0.0.9000
 Date: 2016-11-11
-Authors@R: person(“Brooke”, “Watson”, email = “brookemeredithwatson@gmail.com”, role = c("aut", "cre"))
+Authors@R: person(‘Brooke’, ‘Watson’, email = ‘brookemeredithwatson@gmail.com’, role = c(‘aut’, ‘cre’))
 Author: Brooke Watson [aut, cre]
 Maintainer: Brooke Watson <brookewatsonepi@gmail.com>
 Description: Functions for my senior thesis in Epidemiology at LSHTM.
 Depends: R (>= 3.3.1)
 Imports: dplyr, lubridate
-License: GPL (>= 2) 
-Encoding: UTF-8
+License: GPL (>= 2)  
 LazyData: true
 URL: https://www.github.com/brooke-watson/thesis
 RoxygenNote: 5.0.1
