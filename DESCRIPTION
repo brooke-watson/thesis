@@ -2,7 +2,6 @@ Package: thesis
 Title: Functions for my senior thesis in Epidemiology at LSHTM
 Version: 0.0.0.9000
 Date: 2016-11-11
-Authors@R: person(‘Brooke’, ‘Watson’, email = ‘brookemeredithwatson@gmail.com’, role = c(‘aut’, ‘cre’))
 Author: Brooke Watson [aut, cre]
 Maintainer: Brooke Watson <brookewatsonepi@gmail.com>
 Description: Functions for my senior thesis in Epidemiology at LSHTM.
