@@ -8,8 +8,7 @@ Maintainer: Brooke Watson <brookewatsonepi@gmail.com>
 Description: Functions for my senior thesis in Epidemiology at LSHTM.
 Depends: R (>= 3.3.1)
 Imports: dplyr, lubridate
-License: GPL (>= 2)
-URL
+License: GPL (>= 2) 
 Encoding: UTF-8
 LazyData: true
 URL: https://www.github.com/brooke-watson/thesis
