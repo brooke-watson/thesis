@@ -56,10 +56,10 @@ hh = mutate(hh, crowding = x_ppl_in_hh/x_bedrooms)
 hh$crowding2 = cut(hh$crowding, c(0,3,5,100)) # this one has to go first
 hh$crowding = cut(hh$crowding, c(0,4,100))
 
-# encode all the other stuff.
-hh[] lapply(hh[], as.factor)
-colnames = data.table(1:length(hh), names(hh))
-nums = c(27, 28, 29, 25, )
+## encode all the other stuff.
+#hh[] lapply(hh[], as.factor)
+#colnames = data.table(1:length(hh), names(hh))
+#nums = c(27, 28, 29, 25, )
 
 #
 #
