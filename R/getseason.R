@@ -7,7 +7,7 @@
 #' @keywords time
 #' @export
 #' @examples
-#' makeseason(c("2015-7-01 00:00:10", "2015-12-01 00:00:00", "2012-12-01 01:00:00"))
+#' getseason(c("2015-7-01 00:00:10", "2015-12-01 00:00:00", "2012-12-01 01:00:00"))
 
 getseason <- function(d) {
   library(lubridate)
