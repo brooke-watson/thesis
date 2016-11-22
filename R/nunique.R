@@ -8,5 +8,5 @@
 #' nunique(vec)
 
 nunique = function(x){
-  length(unique(x))
+  return(length(unique(x)))
 }
