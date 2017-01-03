@@ -10,6 +10,7 @@
 #' getseason(c("2015-7-01 00:00:10", "2015-12-01 00:00:00", "2012-12-01 01:00:00"))
 
 getseason <- function(d) {
+  install.packages("lubridate", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"))
   library(lubridate)
   start = ymd_hms("2014-12-01 00:00:00") # start of study collection
   rainstart1 = ymd_hms("2015-05-01 00:00:00") # start of first rainy (summer) season in study

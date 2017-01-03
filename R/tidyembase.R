@@ -4,14 +4,17 @@
 #' @param filepath path to an exported list of citations from embase. filepath must include search strings.
 #' @return cleaned data frame 
 #' @keywords excel, csv, embase 
-#' @import janitor, readxl
+#' @import janitor, readxl, dplyr
 #' @examples
 #' tidyembase('path/to/file.csv')
 #' tidyembase('path/to/file.xlsx') 
 
 tidyembase = function(filepath){ 
-    require(janitor)
-    require(readxl)
+    install.packages("dplyr", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"), dependencies = TRUE)
+    install.packages("janitor", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"), dependencies = TRUE)
+    install.packages("readxl", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"), dependencies = TRUE)
+    library(janitor)
+    library(readxl)
     
     # read in the data 
     if (grepl("xl",filepath)){

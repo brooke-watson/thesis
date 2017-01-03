@@ -16,8 +16,10 @@
 #' munge(df)
 
 munge = function(df){
-  require(dplyr)
-  require(lubridate)
+  install.packages("dplyr", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"), dependencies = TRUE)
+  install.packages("lubridate", repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com"), dependencies = TRUE)
+  library(dplyr)
+  library(lubridate)
 
   df[,!sapply(df, is.numeric) & !sapply(df,is.integer) &
                !sapply(df,is.Date)] =
