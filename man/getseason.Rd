@@ -17,7 +17,6 @@ character vector containing 1 of 3 values: 1 (Rainy season), 0 (Dry season), or
 This function encodes a season variable based on dates of data collection in the study.
 }
 \examples{
-makeseason(c("2015-7-01 00:00:10", "2015-12-01 00:00:00", "2012-12-01 01:00:00"))
+getseason(c("2015-7-01 00:00:10", "2015-12-01 00:00:00", "2012-12-01 01:00:00"))
 }
 \keyword{time}
-

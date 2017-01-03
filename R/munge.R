@@ -7,9 +7,7 @@
 #' of your read.csv line for the data frame that you read in.
 #' @param df matrix or data table
 #' @return lowercase data frame with white space trimmed. numeric, Date, and integer columns are left alone.
-#' @keywords data munging
-#' @export
-#' @
+#' @keywords data munging 
 #' @details many thanks to this stack overflow answer: http://stackoverflow.com/questions/17964513/subset-variables-in-data-frame-based-on-column-type
 #' @examples
 #' df = data.frame(number = numeric(c(1,2,3)),

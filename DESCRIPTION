@@ -1,14 +1,14 @@
 Package: thesis
 Title: Functions for my senior thesis in Epidemiology at LSHTM
 Version: 0.0.0.9000
-Date: 2016-11-11
+Date: 2017-1-3
 Author: Brooke Watson [aut, cre]
 Maintainer: Brooke Watson <brookewatsonepi@gmail.com>
 Description: Functions for my senior thesis in Epidemiology at LSHTM.
 Depends: R (>= 3.3.1)
-Imports: dplyr, lubridate
+Imports: dplyr, lubridate, janitor, readxl
 License: GPL (>= 2)  
 Encoding: UTF-8
 LazyData: true
 URL: https://www.github.com/brooke-watson/thesis
-RoxygenNote: 5.0.1 
+RoxygenNote: 5.0.1.9000
