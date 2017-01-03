@@ -1,10 +1,10 @@
 \name{tidyembase}
 \alias{tidyembase}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{tidyembase
 %%  ~~function to do ... ~~
 }
-\description{
+\description{#' This function encodes a season variable based on dates of data collection in the study.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -41,7 +41,8 @@ tidyembase(filepath)
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
-\examples{
+\examples{tidyembase('path/to/file.csv')
+tidyembase('path/to/file.xlsx')
 ##---- Should be DIRECTLY executable !! ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
@@ -79,5 +80,7 @@ function (filepath)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{excel}% use one of  RShowDoc("KEYWORDS")
+\keyword{csv}% __ONLY ONE__ keyword per line
+\keyword{embase}% __ONLY ONE__ keyword per line
+\keyword{'systematic review'}% __ONLY ONE__ keyword per line
